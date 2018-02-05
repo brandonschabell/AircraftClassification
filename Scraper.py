@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import pandas as pd
+import csv
 
 # AirlinersIDS.csv contains a lookup table for IDs:Aircraft Name
 
@@ -18,8 +19,9 @@ import pandas as pd
 # On each page, images can be found with:
 #   $x("//*[@class='card-image']//a//img").forEach(function(item) {console.log(item.src)})
 
-lookup_table = pd.read_csv("AirlinersIDSQuarter1.csv")
+lookup_table = pd.read_csv("AirlinersIDSSelect2.csv")
 aircraft_dict = dict(zip(lookup_table.ID, lookup_table.Aircraft))
+total_vector = dict()
 i = 0
 
 for k, v in aircraft_dict.items():
@@ -27,12 +29,14 @@ for k, v in aircraft_dict.items():
     aircraft_id = k
     aircraft_model = v
     aircraft_model = aircraft_model.replace("/", "")
+    aircraft_model = aircraft_model.replace("...", "[]")
 
     print("Starting on {0} (Aircraft {1})".format(aircraft_model, str(i)))
-    directory = os.getcwd() + "\\{}".format(aircraft_model).replace(" ", "")
-    os.mkdir(directory)
+    # directory = os.getcwd() + os.sep + "Images" + os.sep + aircraft_model.replace(" ", "")
+    # os.mkdir(directory)
 
     page = 1
+    total_found = 0
     while True:
         path = "http://www.airliners.net/search?aircraftBasicType={}&sortBy=dateAccepted".format(str(aircraft_id))\
                + "&sortOrder=desc&perPage=84&display=card&page={}".format(str(page))
@@ -42,7 +46,7 @@ for k, v in aircraft_dict.items():
         data = r.text
         soup = BeautifulSoup(data, "html5lib")
         num_found = 0
-        
+
         # for link in soup.find_all("img"):
         #    image = link.get("src")
         #    if image.startswith("http://imgproc.airliners.net/photos/airliners/"):
@@ -50,11 +54,22 @@ for k, v in aircraft_dict.items():
         for link in soup.find_all(class_='card-image'):
             image = link.find('img').get('src')
             
-            num_found = num_found = 1
-            image_name = os.path.split(image)[1]
-            r2 = requests.get(image)
-            with open(directory + "\\" + image_name, 'wb') as f:
-                f.write(r2.content)
+            num_found = num_found + 1
+            # image_name = os.path.split(image)[1]
+            # r2 = requests.get(image)
+            # with open(directory + os.sep + image_name, 'wb') as f:
+            #     f.write(r2.content)
 
+        total_found = total_found + num_found
         if num_found == 0:
             break
+        if total_found > 1000:
+            total_found = 9999
+            break
+
+    total_vector[k] = total_found
+
+with open('totals.csv', 'w') as csv_file:
+    writer = csv.writer(csv_file)
+    for k, v in total_vector.items():
+        writer.writerow([str(k), str(v)])
