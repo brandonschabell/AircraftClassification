@@ -42,15 +42,19 @@ for k, v in aircraft_dict.items():
         data = r.text
         soup = BeautifulSoup(data, "html5lib")
         num_found = 0
-
-        for link in soup.find_all("img"):
-            image = link.get("src")
-            if image.startswith("http://imgproc.airliners.net/photos/airliners/"):
-                num_found = num_found = 1
-                image_name = os.path.split(image)[1]
-                r2 = requests.get(image)
-                with open(directory + "\\" + image_name, 'wb') as f:
-                    f.write(r2.content)
+        
+        # for link in soup.find_all("img"):
+        #    image = link.get("src")
+        #    if image.startswith("http://imgproc.airliners.net/photos/airliners/"):
+    
+        for link in soup.find_all(class_='card-image'):
+            image = link.find('img').get('src')
+            
+            num_found = num_found = 1
+            image_name = os.path.split(image)[1]
+            r2 = requests.get(image)
+            with open(directory + "\\" + image_name, 'wb') as f:
+                f.write(r2.content)
 
         if num_found == 0:
             break
