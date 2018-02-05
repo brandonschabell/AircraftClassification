@@ -1,470 +1,71 @@
-ID,Aircraft
-503,Aerospatiale-BAC Concorde
-505,Aerospatiale-British Aerospace Concorde
-841,Airbus A300
-843,Airbus A300-600ST Super Transporter
-845,Airbus A310
-847,Airbus A318
-849,Airbus A319
-851,Airbus A320
-853,Airbus A321
-855,Airbus A330-...
-857,Airbus A330-200
-859,Airbus A330-300
-861,Airbus A340-...
-863,Airbus A340-200
-865,Airbus A340-300
-867,Airbus A340-500
-869,Airbus A340-600
-871,Airbus A350
-875,Airbus A380
-877,Airbus A400M Grizzly/Atlas
-1237,Antonov An-10 Ukraina
-1239,Antonov An-12
-1241,Antonov An-124 Ruslan
-1243,Antonov An-14
-1245,Antonov An-140
-1247,Antonov An-148/158
-1249,Antonov An-178
-1253,Antonov An-2/3
-1255,Antonov An-22 Antei
-1257,Antonov An-225 Mriya
-1259,Antonov An-24
-1261,Antonov An-26
-1263,Antonov An-28
-1265,Antonov An-30
-1267,Antonov An-32
-1269,Antonov An-38
-1271,Antonov An-70
-1277,Antonov An-72/74
-1279,Antonov An-8
-1997,Beech 100 King Air (U-21)
-1999,Beech 17 (C-43/GB/JB)
-2001,Beech 18 (C-45/AT-11/JRB/SNB)
-2003,Beech 19 Musketeer/Sport
-2005,Beech 1900 (C-12)
-2007,Beech 200/1300 Super King Air (C-12)
-2009,Beech 2000 Starship 1
-2011,Beech 23 Musketeer/Custom/Sundowner
-2013,Beech 24 Musketeer/Super/Sierra
-2017,Beech 300/350 Super King Air
-2019,Beech 33 Debonair/Bonanza
-2021,Beech 35 Bonanza
-2023,Beech 36 Bonanza
-2025,Beech 400 Beechjet (T-1)
-2027,Beech 45 Mentor/Turbo Mentor (T-34)
-2029,Beech 50 Twin Bonanza (L-23/U-8)
-2031,Beech 55 Baron (T-42)
-2033,Beech 56 Turbo Baron
-2035,Beech 58 Baron
-2037,Beech 60 Duke
-2039,Beech 65/70/80/88 Queen Air (L-23/U-8)
-2041,Beech 73 Jet Mentor
-2043,Beech 76 Duchess
-2045,Beech 77 Skipper
-2047,Beech 90 King Air (C-6/T-44/U-21)
-2049,Beech 95 Travel Air
-2051,Beech 99 Airliner
-2053,Beechcraft 200/250 King Air
-2055,Beechcraft 350 King Air
-2057,Beechcraft 36 Bonanza
-2059,Beechcraft 58 Baron
-2061,Beechcraft 90 King Air
-2065,Beechcraft T-6 Texan II
-2085,Bell 204/205/210 (H-1/40 Iroquois)
-2087,Bell 206/406 JetRanger (H-4/H-57/H-58/H-67)
-2091,Bell 209/309/449 (AH-1 Cobra/Sea Cobra/Super Cobra/King Cobra/Viper)
-2093,Bell 212/450 (H-1 Iroquois/Venom)
-2107,Bell 407
-2109,Bell 412
-2111,Bell 427
-2113,Bell 429
-2117,Bell 47
-2125,Bell P-39/400 Airacobra
-2133,Bell X-1
-2147,Bell XV-15 (301)
-2149,Bell-Agusta BA-609
-2151,Bell-Boeing V-22 Osprey (901)
-2345,Boeing 367
-2347,Boeing 377 Stratocruiser
-2365,Boeing 707-...
-2367,Boeing 707-100 (C-137)
-2369,Boeing 707-200
-2371,Boeing 707-300 (C-18/C-137/E-3/E-6/E-8)
-2373,Boeing 707-400
-2375,Boeing 717
-2377,Boeing 720
-2379,Boeing 727-...
-2381,Boeing 727-100 (C-22)
-2383,Boeing 727-200 (C-22)
-2385,Boeing 737-...
-2387,Boeing 737-100
-2389,Boeing 737-200 (T-43)
-2391,Boeing 737-300
-2393,Boeing 737-400
-2395,Boeing 737-500
-2397,Boeing 737-600
-2399,Boeing 737-700 (BBJ/C-40 Clipper)
-2401,Boeing 737-8
-2405,Boeing 737-800 (BBJ2/C-40/P-8)
-2407,Boeing 737-900 (BBJ3)
-2411,Boeing 747-...
-2413,Boeing 747-100
-2415,Boeing 747-200 (C-25/E-4)
-2417,Boeing 747-300
-2419,Boeing 747-400 (AL-1)
-2421,Boeing 747-8
-2423,Boeing 747SP
-2425,Boeing 747SR
-2427,Boeing 757-...
-2429,Boeing 757-200 (C-32)
-2433,Boeing 757-300
-2435,Boeing 767-...
-2437,Boeing 767-200
-2439,Boeing 767-300
-2441,Boeing 767-400
-2443,Boeing 777-...
-2445,Boeing 777-200
-2447,Boeing 777-300
-2449,Boeing 787-8 Dreamliner
-2451,Boeing 787-9 Dreamliner
-2459,Boeing B-17 Flying Fortress (299)
-2461,Boeing B-29/B-50 Superfortress (345)
-2463,Boeing B-47 Stratojet (450)
-2465,Boeing B-52 Stratofortress (464)
-2467,Boeing C-135 Stratotanker/Stratolifter
-2469,Boeing C-14 (953)
-2471,Boeing C-17 Globemaster III
-2473,Boeing C-97 Stratofreighter (367)
-2477,Boeing F-15 Eagle
-2479,Boeing F/A-18/EA-18 Hornet/Growler
-2481,Boeing H-46 Sea Knight (107)
-2483,Boeing H-47 Chinook (234/347)
-2485,Boeing H-64 Apache
-2493,Boeing PT-13/17/27/N2S Kaydet (75)
-2495,Boeing T-45 Goshawk
-2497,Boeing V-8 Harrier
-2551,Bombardier BD-100 Challenger 300/350
-2553,Bombardier BD-500 CSeries
-2555,Bombardier BD-700 Global Express/5000/6000 (E-11)
-2557,Bombardier CL-415
-2559,Bombardier CL-600 Challenger 604/605
-2563,Bombardier CRJ-100/200/Challenger 800/850
-2567,Bombardier CRJ-1000
-2569,Bombardier CRJ-700/701/702/Challenger 870
-2571,Bombardier CRJ-705/900/Challenger 890
-2573,Bombardier DHC-8 Dash 8
-3237,Cessna 120/140
-3239,Cessna 150
-3241,Cessna 152
-3243,Cessna 162 Skycatcher/LSA
-3245,Cessna 170
-3247,Cessna 172 Skyhawk/Cutlass/Hawk XP (T-41/Mescalero)
-3249,Cessna 175 Skylark
-3251,Cessna 177 Cardinal
-3253,Cessna 180 Skywagon 180 (U-17)
-3255,Cessna 182 Skylane
-3257,Cessna 185 Skywagon/185 (U-17)
-3259,Cessna 188 Agwagon/AgPickup/AgTruck/Ag Husky
-3261,Cessna 190/195 (C-126/U-20)
-3263,Cessna 205
-3265,Cessna 206 Super Skywagon/Super Skylane/Stationair 6
-3267,Cessna 207 Skywagon 207/Stationair 7/8
-3269,Cessna 208 Caravan I/Cargomaster/Grand Caravan (U-27)
-3271,Cessna 210 Centurion
-3273,Cessna 303 Crusader
-3275,Cessna 310 (U-3/L-27 Blue Canoe)
-3277,Cessna 320 Skyknight/Executive Skyknight
-3279,Cessna 335
-3281,Cessna 336 Skymaster
-3283,Cessna 337 Super Skymaster/Pressurized Skymaster (O-2)
-3285,Cessna 340
-3287,Cessna 350/400 Corvalis
-3289,Cessna 401/402 Utililiner/Businessliner
-3291,Cessna 404 Titan
-3293,Cessna 411
-3295,Cessna 414 Chancellor
-3297,Cessna 421 Golden Eagle/Executive Commuter
-3299,Cessna 425 Corsair/Conquest I
-3301,Cessna 441 Conquest/Conquest II
-3303,Cessna 500/501 Citation/I/ISP
-3305,Cessna 510 Citation Mustang
-3307,Cessna 525 CitationJet/CJ1/CJ2/CJ3/CJ4
-3309,Cessna 526 CitationJet
-3311,Cessna 550/551/552 Citation II/IISP/SII/Bravo (T-47)
-3313,Cessna 560 Citation V/Ultra/Encore (T-47/C-35)
-3315,Cessna 560XL Citation Excel/XLS
-3317,Cessna 650 Citation III/VI/VII
-3319,Cessna 680 Citation Sovereign/Latitude
-3321,Cessna 750 Citation X
-3325,Cessna A-37 Dragonfly (318)
-3329,Cessna C-145/165 Airmaster
-3335,Cessna E530 Scorpion
-3337,Cessna NGP
-3339,Cessna O-1 Bird Dog (305/321/L-19/OE)
-3343,Cessna T-37 Tweety Bird (318)
-3345,Cessna T-50 Bobcat (AT-8/AT-17/C-78/JRC/Crane)
-3525,Cirrus SF-50 Vision
-3527,Cirrus SR-20
-3529,Cirrus SR-22
-3723,Convair 240/600 (C-131/T-29/Samaritan)
-3725,Convair 340/440/540/580/640/5800 (C-131/R4Y/Metropolitan)
-3727,Convair 880
-3729,Convair 990 (Coronado)
-3735,Convair B-36 Peacemaker
-3737,Convair B-58 Hustler
-3741,Convair F-102 Delta Dagger (8)
-3743,Convair F-106 Delta Dart (8)
-3745,Convair F-92 (7)
-3751,Convair XFY-1 Pogo
-4017,Dassault 1150/ATL-2 Atlantic/Atlantique 2
-4021,Dassault Falcon (Mystere) 20/200/XX (U-25)
-4023,Dassault Falcon (Mystere) 30
-4025,Dassault Falcon 10/100
-4027,Dassault Falcon 2000
-4029,Dassault Falcon 50
-4031,Dassault Falcon 5X
-4033,Dassault Falcon 7X
-4035,Dassault Falcon 8X
-4037,Dassault Falcon 900
-4051,Dassault Mercure
-4053,Dassault Mirage 2000
-4055,Dassault Mirage 4000
-4057,Dassault Mirage 5/50
-4059,Dassault Mirage F1
-4065,Dassault Mirage IV
-4069,Dassault Rafale
-4075,Dassault-Dornier Alpha Jet
-4091,De Havilland Australia DHA-3 Drover
-4093,De Havilland Canada DHC-1 Chipmunk
-4095,De Havilland Canada DHC-2 Beaver (L-20/U-6)
-4097,De Havilland Canada DHC-3 Otter (U-1/UC)
-4099,De Havilland Canada DHC-4 Caribou (C-7/AC-1/V-2)
-4101,De Havilland Canada DHC-5 Buffalo (C-8/V-7)
-4103,De Havilland Canada DHC-6 Twin Otter (V-18)
-4105,De Havilland Canada DHC-7 Dash 7 (O-5)
-4109,De Havilland Canada DHC-8 Dash 8 (E-9)
-4111,De Havilland DH-100 Vampire
-4117,De Havilland DH-104 Dove (Devon)
-4119,De Havilland DH-106 Comet
-4121,De Havilland DH-110 Sea Vixen
-4123,De Havilland DH-112 Venom/Sea Venom
-4125,De Havilland DH-114 Heron
-4127,De Havilland DH-121 Trident
-4129,De Havilland DH-125
-4131,De Havilland DH-2
-4133,De Havilland DH-51
-4135,De Havilland DH-53 Hummingbird
-4137,De Havilland DH-60 Moth
-4145,De Havilland DH-80 Puss Moth
-4147,De Havilland DH-82 Tiger Moth
-4149,De Havilland DH-83 Fox Moth
-4151,De Havilland DH-84 Dragon
-4153,De Havilland DH-85 Leopard Moth
-4157,De Havilland DH-87 Hornet Moth
-4159,De Havilland DH-88 Comet
-4161,De Havilland DH-89 Dragon Rapide (Dominie)
-4163,De Havilland DH-90 Dragonfly
-4165,De Havilland DH-91 Albatross
-4173,De Havilland DH-98 Mosquito
-4175,De Havilland DHC-1 Chipmunk
-4295,Diamond D-Jet
-4297,Diamond DA-20 Katana/Eclipse/Evolution
-4301,Diamond DA-40 Diamond Star (T-52)
-4303,Diamond DA-42 Twin Star
-4307,Diamond DA-52/62
-4309,Diamond HK-36 Super Dimona/Katana Xtreme
-4409,Douglas A-1 Skyraider (AD)
-4413,Douglas A-26 Invader (B-26/JD)
-4415,Douglas A-3 Skywarrior (A3D)
-4417,Douglas A-4 Skyhawk (A4D)
-4421,Douglas B-18/C-58 Bolo
-4423,Douglas B-23/C-67 Dragon
-4425,Douglas B-66 Destroyer
-4427,Douglas C-124 Globemaster II
-4429,Douglas C-133 Cargomaster
-4431,Douglas C-74 Globemaster I
-4437,Douglas DC-1
-4439,Douglas DC-2 (C-39/42/R2D)
-4441,Douglas DC-3 (C-47/53/117/R4D/Skytrain/Dakota)
-4443,Douglas DC-4 (C-54/R5D/Skymaster)
-4445,Douglas DC-5 (C-110/R3D)
-4447,Douglas DC-6 (C-118/R6D/Liftmaster)
-4449,Douglas DC-7
-4451,Douglas DC-8 (Jet Trader/C-24)
-4453,Douglas DC-9
-4455,Douglas DWC World Cruiser
-4457,Douglas F-10 Skyknight (F3D)
-4461,Douglas F-6 Skyray (F4D)
-4471,Douglas SBD Dauntless/A-24 Banshee
-4473,Douglas X-3 Stiletto
-4755,Embraer EMB-110 Bandeirante
-4757,Embraer EMB-120 Brasilia
-4761,Embraer EMB-200/201/202 Ipanema/Ipanemao
-4763,Embraer EMB-312 Tucano
-4765,Embraer EMB-312H/314 Super Tucano
-4767,Embraer EMB-326 Xavante
-4769,Embraer EMB-390 (KC-390)
-4773,Embraer EMB-500/505 Phenom
-4775,Embraer EMB-545/550 Legacy 450/500
-4777,Embraer EMB-710/712 Carioca/Tupi
-4779,Embraer EMB-711 Corisco
-4781,Embraer EMB-720 Minuano
-4783,Embraer EMB-721 Sertanejo
-4785,Embraer EMB-810 Seneca
-4787,Embraer EMB-820 Navajo
-4789,Embraer ERJ-135/140/145/Legacy (EMB-135/145)
-4791,Embraer ERJ-170/175
-4793,Embraer ERJ-190/195/Lineage
-5049,Fairchild 24 (C-61 Forwarder/Argus)
-5065,Fairchild A-10 Thunderbolt II
-5069,Fairchild C-119/R4Q Flying Boxcar
-5071,Fairchild C-123 Provider
-5073,Fairchild C-82 Packet
-5075,Fairchild Canada 82
-5077,Fairchild Canada F-11 Husky
-5079,Fairchild Dornier 328JET
-5081,Fairchild Dornier 728
-5083,Fairchild Dornier SA-227 Metro
-5085,Fairchild F-27 (C-27)
-5087,Fairchild Hiller F-27/FH-227
-5089,Fairchild Hiller FH-1100
-5097,Fairchild PT-19/23/26 (M-62/Cornell)
-5099,Fairchild SA-227 Merlin III/Fairchild 300
-5101,Fairchild SA-227 Merlin IV/Metro/Fairchild 400/Expediter (C-26)
-5105,Fairchild Swearingen SA-226/227 Merlin III
-5107,Fairchild Swearingen SA-226/227 Merlin IV/Metro
-5551,Fokker 50
-5553,Fokker 60
-5555,Fokker 70/100
-5573,Fokker Dr-1
-5577,Fokker F-27 Friendship/Troopship (C-31)
-5579,Fokker F-28 Fellowship
-5587,Fokker F.VII
-5763,Gates Learjet 24
-5765,Gates Learjet 25
-5767,Gates Learjet 28/29
-5769,Gates Learjet 35/36 (C-21)
-5771,Gates Learjet 55
-6065,Grumman A-6 Intruder/Prowler (G-128)
-6069,Grumman American AA-1 Trainer/Tr2/T-Cat/Lynx
-6071,Grumman American AA-5 Traveler/Cheetah/Tiger
-6073,Grumman American G-1159 Gulfstream II
-6075,Grumman American G-164 Ag-Cat
-6077,Grumman American GA-7 Cougar
-6089,Grumman F-14 Tomcat (G-303)
-6095,Grumman F4F/FM Wildcat (G-18/36/52/53)
-6099,Grumman F7F Tigercat (G-51)
-6105,Grumman G-1159 Gulfstream II (C-11/C-20)
-6107,Grumman G-159 Gulfstream I (C-4/Academe)
-6109,Grumman G-164 Ag-Cat
-6115,Grumman G-44 Widgeon (J4F)
-6117,Grumman G-73 Mallard
-6123,Grumman S-2 Tracker (G-89/G-121/S2F)
-6125,Grumman TBF/TBM Avenger (G-40)
-6127,Grumman U-16 Albatross (G-64/G-111/A-16/JR2F/UF)
-6167,Gulfstream Aerospace 690/695 Jetprop
-6169,Gulfstream Aerospace G-1159/G-IV/G-V Gulfstream (C-20/C-37)
-6173,Gulfstream Aerospace G100/G150
-6175,Gulfstream Aerospace G200
-6177,Gulfstream Aerospace G250/G280
-6185,Gulfstream Aerospace G650 (G-VI)
-6187,Gulfstream American 690/695 Jetprop
-6189,Gulfstream American AA-5 Cheetah/Tiger
-6191,Gulfstream American G-1159 Gulfstream II/III
-6369,Hawker Beechcraft 200/250 King Air (C-12)
-6371,Hawker Beechcraft 350 King Air (C-12)
-6373,Hawker Beechcraft 36 Bonanza
-6375,Hawker Beechcraft 390 Premier I/Hawker 200
-6377,Hawker Beechcraft 400
-6379,Hawker Beechcraft 4000
-6381,Hawker Beechcraft 58 Baron
-6383,Hawker Beechcraft 750/800/850/900
-6385,Hawker Beechcraft 90 King Air
-6387,Hawker Beechcraft T-6 Texan II
-6395,Hawker Fury
-6397,Hawker Fury/Sea Fury
-6407,Hawker Hunter
-6409,Hawker Hurricane/Sea Hurricane
-6417,Hawker Siddeley Gnat/Ajeet
-6421,Hawker Siddeley HS-1182 Hawk
-6423,Hawker Siddeley HS-121 Trident
-6425,Hawker Siddeley HS-125 (Dominie)
-6427,Hawker Siddeley HS-748 (Andover)
-6429,Hawker Siddeley HS-780 Andover
-6419,Hawker Siddeley Harrier
-6435,Hawker Tempest
-6437,Hawker Tomtit
-6851,Ilyushin Il-102
-6853,Ilyushin Il-103
-6855,Ilyushin Il-114
-6857,Ilyushin Il-12
-6859,Ilyushin Il-14
-6861,Ilyushin Il-18/20/22/24/38
-6863,Ilyushin Il-2
-6869,Ilyushin Il-62
-6873,Ilyushin Il-76/78/82
-6875,Ilyushin Il-86/87
-6877,Ilyushin Il-96
-7881,Lear Jet 23/24
-7883,Lear Jet 25
-7885,Learjet 31
-7887,Learjet 35/36 (C-21)
-7889,Learjet 40
-7891,Learjet 45
-7893,Learjet 55
-7895,Learjet 60
-7897,Learjet 70/75
-8151,Lockheed 10 Electra (C-35/36/37/R2O)
-8153,Lockheed 12/212 Electra Junior (C-40/JO)
-8155,Lockheed 14/214/414 Super Electra/Hudson
-8157,Lockheed 18 Lodestar (C-56/C-60/R5O)
-8159,Lockheed 2/5/DL Vega
-8165,Lockheed 89 Constitution (R6O/R6V)
-8169,Lockheed A-12/YF-12/M-21/SR-71 Blackbird
-8171,Lockheed C-130 Hercules (L-082/182/282/382/100)
-8173,Lockheed C-141 Starlifter
-8175,Lockheed C-5 Galaxy
-8177,Lockheed Constellation/Starliner (C-69/C-121)
-8179,Lockheed D-21
-8181,Lockheed F-104 Starfighter
-8183,Lockheed F-117 Nighthawk
-8185,Lockheed F-16 Fighting Falcon
-8187,Lockheed F-22 Raptor (L-645)
-8195,Lockheed L-1011 TriStar
-8197,Lockheed L-1329 JetStar (C-140)
-8199,Lockheed L-188 Electra
-8207,Lockheed Martin C-130 Hercules (L-382/100)
-8209,Lockheed Martin F-16 Fighting Falcon
-8211,Lockheed Martin F-22 Raptor
-8213,Lockheed Martin F-35 Lightning II
-8215,Lockheed Martin P-791
-8223,Lockheed P-2 Neptune
-8225,Lockheed P-3 Orion
-8227,Lockheed P-38/F-5 Lightning
-8229,Lockheed P-80/TV-1 Shooting Star (F-80/TO-1)
-8231,Lockheed PV-1/B-34 Ventura (L-37/137/237)
-8233,Lockheed PV-2 Harpoon (15)
-8237,Lockheed T-33
-8243,Lockheed XFV-1 Salmon
-8245,Lockheed YO-3
-8249,Lockwood AirCam
-8611,McDonnell 119/220
-8613,McDonnell Douglas A-4 Skyhawk
-8615,McDonnell Douglas C-15
-8617,McDonnell Douglas C-17 Globemaster III
-8619,McDonnell Douglas DC-10 (C-10 Extender)
-8621,McDonnell Douglas DC-8 (Jet Trader/C-24)
-8623,McDonnell Douglas DC-9 (C-9 Nightingale/Skytrain II)
-8625,McDonnell Douglas F-15 Eagle
-8627,McDonnell Douglas F-4 Phantom II
-8629,McDonnell Douglas F/A-18 Hornet
-8631,McDonnell Douglas H-64 Apache
-8633,McDonnell Douglas MD-11
-8635,McDonnell Douglas MD-500/520/530 (369/H-6 Little Bird)
-8637,McDonnell Douglas MD-600N
-8639,McDonnell Douglas MD-80 (DC-9-80)
-8641,McDonnell Douglas MD-90
-8643,McDonnell Douglas MD-900 Explorer
-8645,McDonnell Douglas T-45 Goshawk
-8647,McDonnell Douglas V-8 Harrier
+ID,Aircraft,Count
+841,Airbus A300,24469
+845,Airbus A310,20235
+847,Airbus A318,5273
+849,Airbus A319,90398
+851,Airbus A320,181666
+853,Airbus A321,51453
+857,Airbus A330-200,59260
+859,Airbus A330-300,51529
+863,Airbus A340-200,3239
+865,Airbus A340-300,32228
+867,Airbus A340-500,3253
+869,Airbus A340-600,13293
+871,Airbus A350,4547
+875,Airbus A380,21881
+2391,Boeing 737-300,64612
+2393,Boeing 737-400,32271
+2395,Boeing 737-500,27752
+2397,Boeing 737-600,6742
+2399,Boeing 737-700 (BBJ/C-40 Clipper),60306
+2405,Boeing 737-800 (BBJ2/C-40/P-8),148088
+2407,Boeing 737-900 (BBJ3),7633
+2413,Boeing 747-100,5033
+2415,Boeing 747-200 (C-25/E-4),29703
+2417,Boeing 747-300,8052
+2419,Boeing 747-400 (AL-1),116803
+2421,Boeing 747-8,8035
+2423,Boeing 747SP,3975
+2429,Boeing 757-200 (C-32),72007
+2433,Boeing 757-300,5245
+2437,Boeing 767-200,17723
+2439,Boeing 767-300,78664
+2441,Boeing 767-400,4305
+2445,Boeing 777-200,76677
+2447,Boeing 777-300,51502
+2449,Boeing 787-8 Dreamliner,18673
+2451,Boeing 787-9 Dreamliner,7002
+2551,Bombardier BD-100 Challenger 300/350,3536
+2555,Bombardier BD-700 Global Express/5000/6000 (E-11),8788
+2559,Bombardier CL-600 Challenger 604/605,6643
+2563,Bombardier CRJ-100/200/Challenger 800/850,20110
+2569,Bombardier CRJ-700/701/702/Challenger 870,7246
+2571,Bombardier CRJ-705/900/Challenger 890,8557
+3241,Cessna 152,3198
+3247,Cessna 172 Skyhawk/Cutlass/Hawk XP (T-41/Mescalero),13608
+3255,Cessna 182 Skylane,5226
+3265,Cessna 206 Super Skywagon/Super Skylane/Stationair 6,2646
+3269,Cessna 208 Caravan I/Cargomaster/Grand Caravan (U-27),5191
+3307,Cessna 525 CitationJet/CJ1/CJ2/CJ3/CJ4,8100
+3311,Cessna 550/551/552 Citation II/IISP/SII/Bravo (T-47),4591
+3313,Cessna 560 Citation V/Ultra/Encore (T-47/C-35),2324
+3315,Cessna 560XL Citation Excel/XLS,7129
+3319,Cessna 680 Citation Sovereign/Latitude,2174
+3321,Cessna 750 Citation X,2753
+3529,Cirrus SR-22,3213
+4027,Dassault Falcon 2000,6058
+4029,Dassault Falcon 50,3124
+4033,Dassault Falcon 7X,2693
+4037,Dassault Falcon 900,7518
+4053,Dassault Mirage 2000,4795
+4789,Embraer ERJ-135/140/145/Legacy (EMB-135/145),24771
+4791,Embraer ERJ-170/175,14445
+4793,Embraer ERJ-190/195/Lineage,22679
+5551,Fokker 50,7875
+5555,Fokker 70/100,21942
+6169,Gulfstream Aerospace G-1159/G-IV/G-V Gulfstream (C-20/C-37),20036
+7891,Learjet 45,2483
+7895,Learjet 60,2834
+8633,McDonnell Douglas MD-11,29076
+8639,McDonnell Douglas MD-80 (DC-9-80),40932
+8641,McDonnell Douglas MD-90,4450

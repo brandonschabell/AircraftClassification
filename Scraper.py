@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import pandas as pd
-import csv
 
 # AirlinersIDS.csv contains a lookup table for IDs:Aircraft Name
 
@@ -15,9 +14,6 @@ import csv
 # Search is of form:
 #   http://www.airliners.net/search?aircraftBasicType={ID}&sortBy=dateAccepted&sortOrder=desc&perPage=84&display=card
 # Where {ID} corresponds to the ID found in AirlinersIDS.csv
-
-# On each page, images can be found with:
-#   $x("//*[@class='card-image']//a//img").forEach(function(item) {console.log(item.src)})
 
 lookup_table = pd.read_csv("AirlinersIDSSelect.csv")
 aircraft_dict = dict(zip(lookup_table.ID, lookup_table.Aircraft))
@@ -48,8 +44,10 @@ for k, v in aircraft_dict.items():
         num_found = 0
 
         for link in soup.find_all(class_='card-image'):
+            if total_found >= 500:
+                break
             image = link.find('img').get('src')
-
+            total_found = total_found + 1
             num_found = num_found + 1
             image_name = os.path.split(image)[1]
             r2 = requests.get(image)
