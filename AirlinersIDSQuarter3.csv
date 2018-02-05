@@ -1,0 +1,250 @@
+ID,Aircraft
+4123,De Havilland DH-112 Venom/Sea Venom
+4125,De Havilland DH-114 Heron
+4127,De Havilland DH-121 Trident
+4129,De Havilland DH-125
+4131,De Havilland DH-2
+4133,De Havilland DH-51
+4135,De Havilland DH-53 Hummingbird
+4137,De Havilland DH-60 Moth
+4145,De Havilland DH-80 Puss Moth
+4147,De Havilland DH-82 Tiger Moth
+4149,De Havilland DH-83 Fox Moth
+4151,De Havilland DH-84 Dragon
+4153,De Havilland DH-85 Leopard Moth
+4157,De Havilland DH-87 Hornet Moth
+4159,De Havilland DH-88 Comet
+4161,De Havilland DH-89 Dragon Rapide (Dominie)
+4163,De Havilland DH-90 Dragonfly
+4165,De Havilland DH-91 Albatross
+4173,De Havilland DH-98 Mosquito
+4175,De Havilland DHC-1 Chipmunk
+4295,Diamond D-Jet
+4297,Diamond DA-20 Katana/Eclipse/Evolution
+4301,Diamond DA-40 Diamond Star (T-52)
+4303,Diamond DA-42 Twin Star
+4307,Diamond DA-52/62
+4309,Diamond HK-36 Super Dimona/Katana Xtreme
+4327,Direct Fly Alto
+4337,Dittmar Condor IV
+4367,Dornier 228
+4369,Dornier 328
+4371,Dornier 328JET
+4375,Dornier Do-17
+4379,Dornier Do-24
+4381,Dornier Do-27
+4383,Dornier Do-28A/B
+4385,Dornier Do-28D/128 Skyservant
+4387,Dornier Do-28E TNT
+4391,Dornier Do-31
+4395,Dornier Do-335 Pfeil
+4403,Dornier Do-X
+4409,Douglas A-1 Skyraider (AD)
+4413,Douglas A-26 Invader (B-26/JD)
+4415,Douglas A-3 Skywarrior (A3D)
+4417,Douglas A-4 Skyhawk (A4D)
+4421,Douglas B-18/C-58 Bolo
+4423,Douglas B-23/C-67 Dragon
+4425,Douglas B-66 Destroyer
+4427,Douglas C-124 Globemaster II
+4429,Douglas C-133 Cargomaster
+4431,Douglas C-74 Globemaster I
+4437,Douglas DC-1
+4439,Douglas DC-2 (C-39/42/R2D)
+4441,Douglas DC-3 (C-47/53/117/R4D/Skytrain/Dakota)
+4443,Douglas DC-4 (C-54/R5D/Skymaster)
+4445,Douglas DC-5 (C-110/R3D)
+4447,Douglas DC-6 (C-118/R6D/Liftmaster)
+4449,Douglas DC-7
+4451,Douglas DC-8 (Jet Trader/C-24)
+4453,Douglas DC-9
+4455,Douglas DWC World Cruiser
+4457,Douglas F-10 Skyknight (F3D)
+4461,Douglas F-6 Skyray (F4D)
+4471,Douglas SBD Dauntless/A-24 Banshee
+4473,Douglas X-3 Stiletto
+4477,Dova DV-1 Skylark
+4479,Dova DV-2 Infinity
+4551,DynAero MCR
+4555,Dynali H-2
+4595,EADS Barracuda
+4651,EFW N-20 Aiguillon
+4659,EHI EH-101/CH-149 Merlin/Cormorant
+4691,EKW C-36
+4621,Eclipse 500
+4623,Eclipse Concept Jet
+4631,Edgar Percival EP-9 Prospector
+4709,Elan DG-100/101
+4711,Elan DG-300/303
+4713,Elan DG-500/505
+4755,Embraer EMB-110 Bandeirante
+4757,Embraer EMB-120 Brasilia
+4761,Embraer EMB-200/201/202 Ipanema/Ipanemao
+4763,Embraer EMB-312 Tucano
+4765,Embraer EMB-312H/314 Super Tucano
+4767,Embraer EMB-326 Xavante
+4769,Embraer EMB-390 (KC-390)
+4773,Embraer EMB-500/505 Phenom
+4775,Embraer EMB-545/550 Legacy 450/500
+4777,Embraer EMB-710/712 Carioca/Tupi
+4779,Embraer EMB-711 Corisco
+4781,Embraer EMB-720 Minuano
+4783,Embraer EMB-721 Sertanejo
+4785,Embraer EMB-810 Seneca
+4787,Embraer EMB-820 Navajo
+4789,Embraer ERJ-135/140/145/Legacy (EMB-135/145)
+4791,Embraer ERJ-170/175
+4793,Embraer ERJ-190/195/Lineage
+4803,Enaer T-35 Pillan (ECH-51)
+4819,Enstrom 480/TH-28
+4821,Enstrom F-28/280 Falcon/Sentinel/Shark
+4833,Erco 415 Ercoupe
+4873,Eurocopter AS-332/532/EC-225/725 Super Puma/Cougar
+4875,Eurocopter AS-350/550 Ecureuil/AStar/Fennec
+4877,Eurocopter AS-355/555 Ecureuil 2/TwinStar/Fennec
+4879,Eurocopter AS-365/565 Dauphin 2/Panther
+4881,Eurocopter EC-120 Colibri
+4883,Eurocopter EC-130
+4885,Eurocopter EC-135/635
+4889,Eurocopter EC-155
+4891,Eurocopter EC-175
+4893,Eurocopter EC-665 Tiger/Tigre
+4895,Eurocopter X3
+4897,Eurocopter-Kawasaki BK-117/EC-145
+4899,Eurofighter EF-2000 Typhoon
+4925,Europa Aircraft Europa/Classic/XS
+4927,Europa Aviation Europa Aviation Europa
+5005,Extra EA-300
+5261,FFA AS-202 Bravo
+5525,FMA IA-58 Pucara
+5527,FMA IA-63 Pampa
+5049,Fairchild 24 (C-61 Forwarder/Argus)
+5065,Fairchild A-10 Thunderbolt II
+5069,Fairchild C-119/R4Q Flying Boxcar
+5071,Fairchild C-123 Provider
+5073,Fairchild C-82 Packet
+5075,Fairchild Canada 82
+5077,Fairchild Canada F-11 Husky
+5079,Fairchild Dornier 328JET
+5081,Fairchild Dornier 728
+5083,Fairchild Dornier SA-227 Metro
+5085,Fairchild F-27 (C-27)
+5087,Fairchild Hiller F-27/FH-227
+5089,Fairchild Hiller FH-1100
+5097,Fairchild PT-19/23/26 (M-62/Cornell)
+5099,Fairchild SA-227 Merlin III/Fairchild 300
+5101,Fairchild SA-227 Merlin IV/Metro/Fairchild 400/Expediter (C-26)
+5105,Fairchild Swearingen SA-226/227 Merlin III
+5107,Fairchild Swearingen SA-226/227 Merlin IV/Metro
+5119,Fairey FD-1
+5121,Fairey FD-2
+5123,Fairey Firefly
+5129,Fairey Gannet
+5141,Fairey Swordfish
+5275,Fiat CR-32
+5277,Fiat CR-42 Falco
+5281,Fiat G-212
+5385,Fleet 1/2/7 (N2Y/Fawn)
+5387,Fleet 10/16 (Finch)
+5389,Fleet 21
+5393,Fleet 60 Fort
+5395,Fleet 80 Canuck
+5401,Fletcher FU-24
+5417,Flight Design CT
+5421,Flight Design MC
+5479,Flygfabriken LN-3 Seagull
+5531,Focke-Achgelis FA-330
+5545,Focke-Wulf FWP-149
+5535,Focke-Wulf Fw-190
+5551,Fokker 50
+5553,Fokker 60
+5555,Fokker 70/100
+5573,Fokker Dr-1
+5577,Fokker F-27 Friendship/Troopship (C-31)
+5579,Fokker F-28 Fellowship
+5587,Fokker F.VII
+5611,Folland Fo-141/144 Gnat
+5617,Ford Tri-Motor
+5619,Fornaire F-1 Aircoupe
+5621,Forney F-1 Aircoupe
+5629,Fouga CM-170 Magister
+5649,Fournier RF-6
+5689,Fuji FA-200 Aero Subaru
+5735,GAF N-22/24 Nomad
+5841,GFly Industria GFly
+5763,Gates Learjet 24
+5765,Gates Learjet 25
+5767,Gates Learjet 28/29
+5769,Gates Learjet 35/36 (C-21)
+5771,Gates Learjet 55
+5815,General Atomics MQ-1 Predator/Gray Eagle
+5817,General Atomics MQ-9 Reaper
+5823,General Dynamics F-111 Aardvark/Raven
+5825,General Dynamics F-16 Fighting Falcon (401)
+5857,GippsAero GA-10
+5859,GippsAero GA-8 Airvan
+5861,Gippsland GA-200 Fatman
+5863,Gippsland GA-8 Airvan
+5869,Glasair GS-2 Sportman
+5873,Glaser-Dirks DG-100
+5877,Glaser-Dirks DG-200/202
+5881,Glaser-Dirks DG-400
+5883,Glaser-Dirks DG-500
+5885,Glaser-Dirks DG-600
+5887,Glaser-Dirks DG-800
+5929,Globe GC-1 Swift
+5933,Gloster E28/39
+5935,Gloster Gamecock
+5937,Gloster Gauntlet
+5939,Gloster Gladiator/Sea Gladiator
+5941,Gloster Javelin
+5943,Gloster Meteor
+5995,Granger Archaeopteryx
+6033,Grob G-102 Astir
+6035,Grob G-103 Twin Astir/Viking
+6039,Grob G-109 (Vigilant)
+6041,Grob G-115 Tutor/Heron
+6043,Grob G-120
+6049,Grob G-180 SPn Utility Jet
+6065,Grumman A-6 Intruder/Prowler (G-128)
+6069,Grumman American AA-1 Trainer/Tr2/T-Cat/Lynx
+6071,Grumman American AA-5 Traveler/Cheetah/Tiger
+6073,Grumman American G-1159 Gulfstream II
+6075,Grumman American G-164 Ag-Cat
+6077,Grumman American GA-7 Cougar
+6089,Grumman F-14 Tomcat (G-303)
+6095,Grumman F4F/FM Wildcat (G-18/36/52/53)
+6099,Grumman F7F Tigercat (G-51)
+6105,Grumman G-1159 Gulfstream II (C-11/C-20)
+6107,Grumman G-159 Gulfstream I (C-4/Academe)
+6109,Grumman G-164 Ag-Cat
+6115,Grumman G-44 Widgeon (J4F)
+6117,Grumman G-73 Mallard
+6123,Grumman S-2 Tracker (G-89/G-121/S2F)
+6125,Grumman TBF/TBM Avenger (G-40)
+6127,Grumman U-16 Albatross (G-64/G-111/A-16/JR2F/UF)
+6163,Guimbal Cabri G2
+6167,Gulfstream Aerospace 690/695 Jetprop
+6169,Gulfstream Aerospace G-1159/G-IV/G-V Gulfstream (C-20/C-37)
+6173,Gulfstream Aerospace G100/G150
+6175,Gulfstream Aerospace G200
+6177,Gulfstream Aerospace G250/G280
+6185,Gulfstream Aerospace G650 (G-VI)
+6187,Gulfstream American 690/695 Jetprop
+6189,Gulfstream American AA-5 Cheetah/Tiger
+6191,Gulfstream American G-1159 Gulfstream II/III
+6503,HESA Shahed 278/OH-78
+6507,HESA Zafar 300
+6613,HOAC DV-20 Katana
+6615,HOAC HK-36 Super Dimona
+6283,Handley Page HP-115
+6285,Handley Page HP-137 Jetstream
+6289,Handley Page HP-52 Hampden
+6291,Handley Page HP-57/59/61/63/70/71 Halifax/Halton
+6293,Handley Page HP-67/94/95 Hastings
+6295,Handley Page HP-80 Victor
+6303,Handley Page HPR-7 Herald
+6321,Harbin Y11
+6323,Harbin Y12
+6327,Harbin Z-19
+6333,Harbin Z-9 Haitun
