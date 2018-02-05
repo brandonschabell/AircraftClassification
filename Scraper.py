@@ -34,9 +34,9 @@ for k, v in aircraft_dict.items():
 
     page = 1
     while True:
-        print("Page {}.".format(str(page)))
-        path = "http://www.airliners.net/search?aircraftBasicType={0}&sortBy=dateAccepted&sortOrder=desc&perPage=84"\
-               + "&display=card&page={1}".format(str(aircraft_id), str(page))
+        path = "http://www.airliners.net/search?aircraftBasicType={}&sortBy=dateAccepted".format(str(aircraft_id))\
+               + "&sortOrder=desc&perPage=84&display=card&page={}".format(str(page))
+        print("Path = {}".format(path))
         page = page + 1
         r = requests.get(path)
         data = r.text
