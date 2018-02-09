@@ -5,17 +5,18 @@ import shutil
 ## need to replace file path for your own
 
 # data from scraping
-directory = '/path/to/images'
+directory = os.getcwd() + os.sep + "Images"
 plane_list = os.listdir(directory)
 
 # created directory for test data
-os.chdir('/path/to/TestImages')
+test_directory = '/path/to/TestImages'
+os.chdir(test_directory)
 for plane in plane_list:
     os.mkdir(plane)
 
 # split data into 80 train 20 test
-os.chdir('/path/to/images')
-test_directory = '/path/to/TestImages'
+os.chdir(directory)
+
 
 # go through each plane file list and put about 20 percent into test directory
 for plane in plane_list:
