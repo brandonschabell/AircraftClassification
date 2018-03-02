@@ -1,7 +1,7 @@
 import os
 
-train_directory = os.getcwd() + os.sep + "Images"
-test_directory = os.getcwd() + os.sep + "TestImages"
+train_directory = os.getcwd() + os.sep + "SmallDataSubset" + os.sep + "TrainImages"
+test_directory = os.getcwd() + os.sep + "DataSubset" +  os.sep + "TestImages"
 plane_list_train = os.listdir(train_directory)
 plane_list_test = os.listdir(test_directory)
 

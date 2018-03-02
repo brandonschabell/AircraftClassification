@@ -5,11 +5,11 @@ import shutil
 ## need to replace file path for your own
 
 # data from scraping
-directory = os.getcwd() + os.sep + "Images"
+directory = os.getcwd() + os.sep + "SmallDataSubset" + os.sep + "TrainImages"
 plane_list = os.listdir(directory)
 
 # created directory for test data
-test_directory = '/path/to/TestImages'
+test_directory = os.getcwd() + os.sep + "SmallDataSubset" + os.sep + "TestImages"
 os.chdir(test_directory)
 for plane in plane_list:
     os.mkdir(plane)

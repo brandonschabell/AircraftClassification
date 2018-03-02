@@ -15,10 +15,11 @@ import pandas as pd
 #   http://www.airliners.net/search?aircraftBasicType={ID}&sortBy=dateAccepted&sortOrder=desc&perPage=84&display=card
 # Where {ID} corresponds to the ID found in AirlinersIDS.csv
 
-lookup_table = pd.read_csv("AirlinersIDSSelect.csv")
+lookup_table = pd.read_csv("AirlinersIDSSelectSmall.csv")
 aircraft_dict = dict(zip(lookup_table.ID, lookup_table.Aircraft))
 total_vector = dict()
 i = 0
+LIMIT = 4000
 
 for k, v in aircraft_dict.items():
     i = i + 1
@@ -28,7 +29,7 @@ for k, v in aircraft_dict.items():
     aircraft_model = aircraft_model.replace("...", "[]")
 
     print("Starting on {0} (Aircraft {1})".format(aircraft_model, str(i)))
-    directory = os.getcwd() + os.sep + "Images" + os.sep + aircraft_model.replace(" ", "")
+    directory = os.getcwd() + os.sep + "SmallDataSubset" + os.sep + "TrainImages" + os.sep + aircraft_model.replace(" ", "")
     os.mkdir(directory)
 
     page = 1
@@ -44,7 +45,7 @@ for k, v in aircraft_dict.items():
         num_found = 0
 
         for link in soup.find_all(class_='card-image'):
-            if total_found >= 500:
+            if total_found >= LIMIT:
                 break
             image = link.find('img').get('src')
             total_found = total_found + 1

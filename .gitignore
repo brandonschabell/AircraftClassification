@@ -100,4 +100,6 @@ ENV/
 # mypy
 .mypy_cache/
 
-/Images
+Images/*
+DataSubset/TrainImages/*
+SmallDataSubset/*
